@@ -1,6 +1,6 @@
 # to_array
 This gem convert from String which follow Array format to collectively ArrayClass.  
-You can revert string which was converted by 'to_str' method.
+You can revert string which was converted by 'to_s' method.
 
 ## How to Install
 ~~~~
@@ -11,7 +11,7 @@ gem install to_array
 You can convert by 'to_array' method.
 ~~~~
 arr = ['foo', 'bar', 'fizz', 'bazz']
-str = arr.to_str
+str = arr.to_s
 
 
 str => "[\"foo\", \"bar\", \"fizz\", \"bazz\"]"
