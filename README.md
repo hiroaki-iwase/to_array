@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/hiroaki-iwase/to_array.svg?branch=master)](https://travis-ci.org/hiroaki-iwase/to_array)
 # to_array
 This gem convert from String which follow Array format to collectively ArrayClass.  
 You can revert string which was converted by 'to_s' method.
